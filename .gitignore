@@ -1,0 +1,28 @@
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# 运行产物：对局日志 / 批量排行榜（体积大、含对局数据，不入库）
+data/
+
+# 本地工具 / 编辑器状态
+.workbuddy-ai/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# 临时探针 / 调试输出
+*.tmp
+*.log
+
+# 本地实验目录（不入库）
+hub/
+bridge/
+config/
+sdk/agent_player.py
+AGENT-PROTOCOL.md
+大模型接入设计方案.md
